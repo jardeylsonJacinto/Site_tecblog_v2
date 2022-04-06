@@ -18,7 +18,6 @@ body{
 	background-color: #f7b600;
 	padding:15px;
 	text-align: center;
-	border:1px solid red;
 }
 
 #area-logo, #area-menu{
@@ -80,10 +79,16 @@ a:hover{
 }
 
 #area-cabecalho a:link, #area-cabecalho a:visited{
-	color:#FFF;
+	color:rgb(0, 0, 0);
 	padding: 8px 12px;
 }
 #area-cabecalho a:hover{
+	color: #000000;
+	background:#FFF;
+	text-decoration:none;
+}
+
+#area-cabecalho .selecionado{
 	color: #f7b600;
 	background:#FFF;
 	text-decoration:none;
